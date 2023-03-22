@@ -1,6 +1,6 @@
 resource "azurerm_linux_virtual_machine" "terra-linux-vm-01" {
   resource_group_name = var.resource_group_name
-  name = "terra-vm-02"
+  name = "terra-vm-03"
   location = var.location
   source_image_reference {
     publisher = "Canonical"
