@@ -34,7 +34,7 @@ variable "security_rule" {
     source_address_prefix = "*"
     destination_address_prefix = "*"
     access = "Allow"
-    priority = 100
+    priority = 200
     direction = "Inbound"
     destination_application_security_group_ids = []
     source_application_security_group_ids = []
